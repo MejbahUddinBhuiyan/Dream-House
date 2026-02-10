@@ -1,20 +1,20 @@
-# 🌧️ Dream House – OpenGL Rain Animation
+# Dream House – OpenGL Rain Animation
 
 A simple **2D OpenGL animation project** built with **Python + PyOpenGL**, showcasing a village scene with animated rain, wind effects, and dynamic sky color transitions.
 
 ---
 
-## 🎯 Features
+##  Features
 
-- 🌦️ Animated rainfall with variable speed  
-- 🌬️ Wind effect controlled via arrow keys  
-- 🌌 Dynamic sky color (day ↔ night effect)  
-- 🏡 Static village scene (house, grass, field)  
-- ⌨️ Keyboard-controlled interaction  
+-  Animated rainfall with variable speed  
+-  Wind effect controlled via arrow keys  
+-  Dynamic sky color (day ↔ night effect)  
+-  Static village scene (house, grass, field)  
+-  Keyboard-controlled interaction  
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python 3  
 - PyOpenGL  
@@ -29,41 +29,40 @@ A simple **2D OpenGL animation project** built with **Python + PyOpenGL**, showc
 pip install PyOpenGL PyOpenGL_accelerate
 2️⃣ Run the Program
 python dreamHouse.py
+```
+## Controls
+### Sky Color
 
-🎮 Controls
-🌈 Sky Color
+m → Make sky brighter (towards white)  
+n → Make sky darker (night mode)  
 
-m → Make sky brighter (towards white)
+### Wind Direction
+→ (Right Arrow) → Wind blows right  
 
-n → Make sky darker (night mode)
+← (Left Arrow) → Wind blows left  
 
-🌬️ Wind Direction
+## Tested Environment
 
-→ (Right Arrow) → Wind blows right
+Python 3.9+   
 
-← (Left Arrow) → Wind blows left
+Windows / Linux  
 
-Tested Environment
+OpenGL 2.0+  
 
-Python 3.9+
+## Project Structure
+Dream-House/  
+│  
+├── dreamHouse.py  
+└── README.md  
 
-Windows / Linux
+## Author
 
-OpenGL 2.0+
+Mejbah Uddin Bhuiyan  
+BSc in Computer Science & Engineering  
+BRAC University  
 
-Project Structure
-Dream-House/
-│
-├── main.py
-└── README.md
+## License
 
-👨‍💻 Author
+This project is intended for educational and academic use.  
 
-Mejbah Uddin Bhuiyan
-BSc in Computer Science & Engineering
-BRAC University
-
-📜 License
-
-This project is intended for educational and academic use.
-You are free to modify and extend it.
+You are free to modify and extend it.  
